@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#boton {
+	font-family: 'Roboto', sans-serif;
+	width: 150px;
+	font-weight: bold;
+    border: 2px ;
+    border-style: solid;
+    border-color:   #7192FC;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    
+    background-color: #9BB2FB;
+    box-shadow: 5px 5px 8px #888888;
+
+}
+
+#buscador {
+	font-family: 'Roboto', sans-serif;
+	width: 500px;
+	
+    border-radius: 5px;
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 5px 5px 8px #888888;	
+}
